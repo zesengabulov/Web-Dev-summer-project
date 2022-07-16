@@ -1,0 +1,66 @@
+.header_container{
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+h4{
+  margin: 0px;
+}
+
+.header_columns{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.col-1{
+  display: flex;
+  align-items: center;
+}
+
+.col-1 img{
+  width: 64px;
+  height: 64px;
+  margin-right: 10px;
+}
+
+.col-1 .header_title h3{
+  font-weight: bold;
+  margin: 0px;
+}
+
+.col-1 .header_title h4{
+  font-weight: normal;
+}
+
+.col-2 h4{
+  font-weight: normal;
+  margin: 0px;
+}
+
+.col-2 .social{
+  display: flex;
+  justify-content: space-between;
+}
+
+.col-2 .social a{
+  margin-right: 5px;
+}
+
+.col-3{
+
+}
+
+.col-3 button{
+  padding: 10px 0;
+  width: 100%;
+  color: #ffffff;
+  background: #7b99c9;
+  border-radius: 10px;
+  font-family: 'Bookman Old Style';
+}
+
+.col-3 button:hover{
+  background: #CE4141;
+}
